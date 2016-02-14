@@ -1,0 +1,72 @@
+* {
+  box-sizing: border-box;
+/*  border: 1px solid black; */
+}
+body {
+  background-color: #cc0215;
+  font-family: 'Lato', sans-serif;
+}
+.logo {
+  position: relative;
+  width: 525px;
+  height: 280px;
+  margin: 0 auto;
+  margin-top: 200px;
+  color: white;
+  font-size: 48px;
+}
+.test {
+  width: 344px;
+  height: 280px;
+  margin: auto;
+}
+.yellow {
+  color: #f3e504;
+  border-top: 4px solid #cc0215;
+}
+#jeffrey {
+  position: absolute;
+  top: 0px;
+}
+#eaton {
+  position: absolute;
+  top: 59px;
+  margin-left: 164px;
+}
+#enthusiastic {
+  color: black;
+  font-weight: bolder;
+  position: absolute;
+  top: 118px;
+  border-top: 4px solid #c4bec1;
+}
+#development {
+  font-size: 35px;
+  position: absolute;
+  top: 177px;
+  margin-left: 20px;
+}
+#point {
+  font-size: 50px;
+}
+a {
+  color: #c4bec1;
+}
+nav {
+  list-style-type: none;
+  position: absolute;
+  bottom: 200px;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  font-size: 35px;
+  padding: 15px;
+}
+li {
+  display: inline;
+  text-align: center;
+  padding: 30px;
+}
+li a {
+  text-decoration: none;
+}
