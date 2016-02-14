@@ -11,7 +11,7 @@ body {
   width: 525px;
   height: 280px;
   margin: 0 auto;
-  margin-top: 200px;
+  margin-top: 180px;
   color: white;
   font-size: 48px;
 }
@@ -40,6 +40,9 @@ body {
   top: 118px;
   border-top: 4px solid #c4bec1;
 }
+.grey {
+  color: #c4bec1;
+}
 #development {
   font-size: 35px;
   position: absolute;
@@ -47,25 +50,27 @@ body {
   margin-left: 20px;
 }
 #point {
-  font-size: 50px;
+  font-size: 52px;
 }
 a {
   color: #c4bec1;
 }
 nav {
   list-style-type: none;
-  position: absolute;
-  bottom: 200px;
-  width: 100%;
+  position: relative;
+  margin-top: 80px;
+  width: 800px;
   margin: auto;
-  text-align: center;
   font-size: 35px;
-  padding: 15px;
+}
+ul {
+  width: 800px;
+  margin: auto;
+  margin-top: 200px;
 }
 li {
   display: inline;
-  text-align: center;
-  padding: 30px;
+  padding: 35px;
 }
 li a {
   text-decoration: none;
