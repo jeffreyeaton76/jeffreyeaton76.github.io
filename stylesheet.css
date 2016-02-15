@@ -43,9 +43,6 @@ the side effect will be an issue. */
   top: 118px;
   border-top: 4px solid #c4bec1;
 }
-#grey {
-  color: #c4bec1;
-}
 #development {
   font-size: 35px;
   position: absolute;
