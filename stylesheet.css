@@ -6,7 +6,7 @@ body {
   background-color: #cc0215;
   font-family: 'Lato', sans-serif;
 }
-.logo {
+#logo {
   position: relative;
   width: 525px;
   height: 280px;
@@ -15,13 +15,16 @@ body {
   color: white;
   font-size: 48px;
 }
-.test {
+#spacing_container {
   width: 344px;
   height: 280px;
   margin: auto;
 }
 .yellow {
   color: #f3e504;
+/* This border puts the gap in the grey bar by putting
+a red bar above all the yellow letters. I don't think
+the side effect will be an issue. */
   border-top: 4px solid #cc0215;
 }
 #jeffrey {
@@ -40,7 +43,7 @@ body {
   top: 118px;
   border-top: 4px solid #c4bec1;
 }
-.grey {
+#grey {
   color: #c4bec1;
 }
 #development {
