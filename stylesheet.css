@@ -1,10 +1,17 @@
+html {
+  margin: 0;
+  padding: 0;
+}
+
 * {
   box-sizing: border-box;
-  border: 1px solid black;
+  /*border: 1px solid white;*/
 }
 body {
   background-color: #cc0215;
   font-family: 'Lato', sans-serif;
+  margin: 0;
+  padding: 0;
 }
 #logo {
   position: relative;
@@ -15,16 +22,15 @@ body {
   color: white;
   font-size: 48px;
 }
-#spacing_container {
+#spacing-container {
   width: 344px;
   height: 280px;
   margin: auto;
 }
 .yellow {
   color: #f3e504;
-/* This border puts the gap in the grey bar by putting
-a red bar above all the yellow letters. I don't think
-the side effect will be an issue. */
+  /* This border puts a red bar above the yellow letters
+  in the logo to effect a gap in the grey bar. */
   border-top: 4px solid #cc0215;
 }
 #jeffrey {
@@ -52,31 +58,72 @@ the side effect will be an issue. */
 #point {
   font-size: 52px;
 }
-a {
-  color: #c4bec1;
-  text-decoration: none;
-}
-.content {
-  list-style-type: none;
+#projects {
   position: relative;
-  width: 100%;
-  margin: auto;
+  height: 800px;
+  margin: 0 auto;
   font-size: 35px;
-  margin-top: 100px;
-  margin-left: 10%;
+  margin-top: 250px;
 }
-ul {
-  width: 800px;
-  margin: auto;
-  margin-top: 140px;
+#projects-container{
+  width: 90%;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 200px;
 }
-li {
-  display: inline;
-  padding: 35px;
+#projects-container img {
+  width: 100%;
 }
-li a {
-  text-decoration: none;
+.project-boxes {
+  display: inline-block;
+  border: 4px solid #c4bec1;
+  width: 320px;
+  height: 241px;
+  margin: 15px;
 }
-.lifelist_img {
+.header {
+  text-align: left;
+  margin-left: 20px;
+  width: 80%;
+  height: 44px;
+  margin: 0 auto;
+  clear: both;
+  color: #f3e504;
+}
+#italy {
+  position: relative;
+  float: left;
+}
+#contact-bar {
+  /*text-align: left;*/
+  position: absolute;
+  right: 0;
+  margin-top: 210px;
+  background: black;
+  color: white;
+  width: 100%;
+  height: 98px;
+  z-index: -1;
+}
+#logos-div {
+  height: 41px;
+  float: left;
+  padding-top: 25px;
+  /*width: 500px;*/
+  margin-left: 65%;
+}
+#contact-text {
+  text-align: right;
+  padding-right: 15px;
+}
+p {
+  font-size: 18px;
+}
+/*.logos {
+  display: inline-block;
   float: right;
+  /*margin: left 40px;*/
+/*}*/
+#linkedin {
+  margin-right: 45px;
 }
