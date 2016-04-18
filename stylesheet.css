@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  /*border: 1px solid black;*/
 }
 html {
   margin: 0;
@@ -117,4 +118,16 @@ p {
 }
 #linkedin {
   margin-right: 30px;
+}
+#italy-sm {
+  display: none;
+}
+
+@media screen and (max-width: 1099px){
+  #italy {
+    display: none;
+  }
+  #italy {
+    display: block;
+  }
 }
