@@ -92,6 +92,7 @@ body {
 #italy {
   position: relative;
   float: left;
+  width: 60%;
 }
 #contact-bar {
   position: absolute;
