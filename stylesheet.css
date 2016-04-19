@@ -140,7 +140,7 @@ br {
 #italy_small {
   display: none;
 }
-@media screen and (max-width: 1099px){
+/*@media screen and (max-width: 1099px){
   #italy {
     display: none;
   }
@@ -149,7 +149,7 @@ br {
   }
   #logos-div {
     height: 98px;
-}
+}*/
 
 @media screen and (max-width: 939px){
 
@@ -160,6 +160,13 @@ br {
   #italy_small {
     display: block;
     width: 100%;
+    margin-top: 40px;
+  }
+  .logos{
+    padding: 0px;
+  }
+  p {
+    font-size: 14px;
   }
 
   #contact-bar {
