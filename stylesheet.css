@@ -152,9 +152,7 @@ br {
 }
 
 @media screen and (max-width: 939px){
-  .logos{
-    padding-right: 0;
-  }
+
   #italy {
     display: none;
   }
