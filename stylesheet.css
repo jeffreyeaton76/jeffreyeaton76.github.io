@@ -157,7 +157,8 @@ p {
     display: none;
   }
   .project-boxes{
-    width: 300px;
+    width: 280px;
+    height: 211px;
   }
   #logo{
     width: 100%;
