@@ -156,8 +156,12 @@ p {
   #spacing-container {
     display: none;
   }
+  #logo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
   #logo-sm {
     display: block;
-    margin-left: 45px;
   }
 }
