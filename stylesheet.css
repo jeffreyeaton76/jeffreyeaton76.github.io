@@ -156,8 +156,8 @@ p {
   #spacing-container {
     display: none;
   }
-  #projects-container {
-    width: 100%;
+  .project-boxes{
+    width: 300px;
   }
   #logo{
     width: 100%;
