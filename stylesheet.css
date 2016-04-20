@@ -156,7 +156,10 @@ p {
   #spacing-container {
     display: none;
   }
-  #logo {
+  #projects-container {
+    width: 100%;
+  }
+  #logo{
     width: 100%;
     display: flex;
     justify-content: center;
