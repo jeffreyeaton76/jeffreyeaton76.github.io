@@ -169,3 +169,15 @@ p {
     display: block;
   }
 }
+#lifelist {
+  background-image: url("lifelist.png");
+}
+#lifelist:hover{
+  background-image: url("lifelist-overlay.png"), url("lifelist.png");
+}
+#ihavetogo {
+  background-image: url("ihavetogo.png");
+}
+#ihavetogo:hover{
+  background-image: url("ihavetogo-overlay.png"), url("ihavetogo.png");
+}
