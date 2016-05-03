@@ -170,38 +170,44 @@ p {
   }
 }
 #lifelist {
-  background-image: url("lifelist.png");
+  background-image: url("assets/lifelist.png");
 }
 #lifelist:hover{
-  background-image: url("lifelist-overlay.png"), url("lifelist.png");
+  background-image: url("assets/lifelist-overlay.png"), url("assets/lifelist.png");
 }
 #ihavetogo {
-  background-image: url("ihavetogo.png");
+  background-image: url("assets/ihavetogo.png");
 }
 #ihavetogo:hover{
-  background-image: url("ihavetogo-overlay.png"), url("ihavetogo.png");
+  background-image: url("assets/ihavetogo-overlay.png"), url("assets/ihavetogo.png");
 }
 #cryptly {
-  background-image: url("cryptly.png");
+  background-image: url("assets/cryptly.png");
 }
 #cryptly:hover{
-  background-image: url("cryptly-overlay.png"), url("cryptly.png");
+  background-image: url("assets/cryptly-overlay.png"), url("assets/cryptly.png");
 }
 #points {
   float: right;
   height: 550px;
+  margin-bottom: 80px;
 }
 #about-text {
   color: #f3e504;
-  font-size: 36px;
+  font-size: 28px;
   float: left;
   width: 60%;
   margin-top: 50px;
   margin-left: 55px;
+}
+#about-text a{
+  text-decoration: none;
+  color: #f3e504;
 }
 #about-white {
   color: white;
 }
 #about-black {
   color: black;
+  font-weight: bold;
 }
