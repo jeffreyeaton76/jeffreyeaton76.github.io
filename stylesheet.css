@@ -173,19 +173,19 @@ p {
   background-image: url("assets/lifelist.png");
 }
 #lifelist:hover{
-  background-image: url("assets/lifelist-overlay.png"), url("assets/lifelist.png");
+  background-image: url("assets/lifelist-overlay.png");
 }
 #ihavetogo {
   background-image: url("assets/ihavetogo.png");
 }
 #ihavetogo:hover{
-  background-image: url("assets/ihavetogo-overlay.png"), url("assets/ihavetogo.png");
+  background-image: url("assets/ihavetogo-overlay.png");
 }
 #cryptly {
   background-image: url("assets/cryptly.png");
 }
 #cryptly:hover{
-  background-image: url("assets/cryptly-overlay.png"), url("assets/cryptly.png");
+  background-image: url("assets/cryptly-overlay.png");
 }
 #points {
   float: right;
