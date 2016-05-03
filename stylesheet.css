@@ -54,6 +54,26 @@ body {
   top: 177px;
   margin-left: 20px;
 }
+nav {
+  list-style-type: none;
+  position: relative;
+  margin: 0 auto;
+  margin-top: 120px;
+  margin-right: 70px;
+  font-size: 35px;
+}
+ul {
+  text-align: center;
+  margin: 0 auto;
+}
+li {
+  display: inline;
+  padding: 60px;
+}
+li a {
+  text-decoration: none;
+  color: #c4bec1;
+}
 #point {
   font-size: 52px;
 }
@@ -61,7 +81,7 @@ body {
   position: relative;
   margin: 0 auto;
   font-size: 35px;
-  margin-top: 250px;
+  margin-top: 300px;
 }
 #projects-container{
   width: 90%;
@@ -192,6 +212,9 @@ p {
   height: 550px;
   margin-bottom: 80px;
 }
+#about-container {
+  margin-top: 300px;
+}
 #about-text {
   color: #f3e504;
   font-size: 28px;
@@ -199,6 +222,7 @@ p {
   width: 60%;
   margin-top: 50px;
   margin-left: 55px;
+  margin-bottom: 300px;
 }
 #about-text a{
   text-decoration: none;
