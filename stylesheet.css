@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  /*border: 1px solid black;*/
 }
 html {
   margin: 0;
@@ -58,7 +59,6 @@ body {
 }
 #projects {
   position: relative;
-  height: 800px;
   margin: 0 auto;
   font-size: 35px;
   margin-top: 250px;
@@ -67,7 +67,7 @@ body {
   width: 90%;
   text-align: center;
   margin: 0 auto;
-  margin-bottom: 200px;
+  margin-bottom: 170px;
 }
 #projects-container img {
   width: 100%;
@@ -180,4 +180,28 @@ p {
 }
 #ihavetogo:hover{
   background-image: url("ihavetogo-overlay.png"), url("ihavetogo.png");
+}
+#cryptly {
+  background-image: url("cryptly.png");
+}
+#cryptly:hover{
+  background-image: url("cryptly-overlay.png"), url("cryptly.png");
+}
+#points {
+  float: right;
+  height: 550px;
+}
+#about-text {
+  color: #f3e504;
+  font-size: 36px;
+  float: left;
+  width: 60%;
+  margin-top: 50px;
+  margin-left: 55px;
+}
+#about-white {
+  color: white;
+}
+#about-black {
+  color: black;
 }
