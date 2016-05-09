@@ -84,7 +84,7 @@ li a {
   margin-top: 300px;
 }
 #projects-container{
-  width: 90%;
+  width: 70%;
   text-align: center;
   margin: 0 auto;
   margin-bottom: 170px;
@@ -206,6 +206,12 @@ p {
 }
 #cryptly:hover{
   background-image: url("assets/cryptly-overlay.png");
+}
+#dharmatime {
+  background-image: url("assets/dharmatime.png");
+}
+#dharmatime:hover{
+  background-image: url("assets/dharmatime-overlay.png");
 }
 #points {
   float: right;
