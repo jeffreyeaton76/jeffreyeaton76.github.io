@@ -189,6 +189,15 @@ p {
     display: block;
   }
 }
+#maureenthorson {
+  background-color: white;
+  background-image: url("assets/maureenthorson.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#maureenthorson:hover{
+  background-image: url("assets/maureenthorson-overlay.png");
+}
 #lifelist {
   background-image: url("assets/lifelist.png");
 }
