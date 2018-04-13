@@ -1,4 +1,25 @@
 $(document).ready(function(){
+
+  $("#maureenthorson").click(function(){
+    window.open("http://maureenthorson.com/", "_blank");
+  });
+  $("#maureenthorson").hover(function(){
+    window.status = "http://maureenthorson.com/";
+  }, function(){
+    window.status = "";
+  });
+  $("#dharmatime").click(function(){
+    window.open("https://dharmatime.herokuapp.com/", "_blank");
+  });
+  $("#lifelist").click(function(){
+    window.open("https://jeffreyeaton76-lifelist.herokuapp.com/", "_blank");
+  });
+  $("#cryptly").click(function(){
+    window.open("http://cryptly.herokuapp.com/", "_blank");
+  });
+  $("#ihavetogo").click(function(){
+    window.open("https://jeffreyeaton76-ihavetogo.herokuapp.com/", "_blank");
+  });
   // Add smooth scrolling to all links
   $("a").on('click', function(event) {
 

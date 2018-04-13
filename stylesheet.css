@@ -195,32 +195,46 @@ p {
   background-repeat: no-repeat;
   background-position: center;
 }
+#maureenthorson .project-text {
+  visibility: hidden;
+}
 #maureenthorson:hover{
-  background-image: url("assets/maureenthorson-overlay.png");
+  background-color: black;
+  color: #f3e504;
+  font-size: .75em;
+  background-image: none;
+  cursor: pointer;
+}
+#maureenthorson:hover .project-text{
+  visibility: visible;
 }
 #lifelist {
   background-image: url("assets/lifelist.png");
 }
 #lifelist:hover{
   background-image: url("assets/lifelist-overlay.png");
+  cursor: pointer;
 }
 #ihavetogo {
   background-image: url("assets/ihavetogo.png");
 }
 #ihavetogo:hover{
   background-image: url("assets/ihavetogo-overlay.png");
+  cursor: pointer;
 }
 #cryptly {
   background-image: url("assets/cryptly.png");
 }
 #cryptly:hover{
   background-image: url("assets/cryptly-overlay.png");
+  cursor: pointer;
 }
 #dharmatime {
   background-image: url("assets/dharmatime.png");
 }
 #dharmatime:hover{
   background-image: url("assets/dharmatime-overlay.png");
+  cursor: pointer;
 }
 #points {
   float: right;
